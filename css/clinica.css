@@ -1,13 +1,16 @@
 *{
     margin: 0;
     padding: 0;
-    direction: none;
     list-style: none;
+    
 }
 body {
     background-color: #f1f1f1;
     display: flex;
     justify-content: center;
+}
+#logo{
+    width: 100px;
 }
 
 .wrapper {
@@ -25,25 +28,39 @@ body {
 .menu {
     width: 15%;
     background-color: aqua;
-    padding: 80px 5px 0px;
+    padding: 20px 5px 0px;
     text-align: center;
-
+   
+}
+.menu ul{
+    margin-top: 18px;
+    
     
 }
 .menu ul li{
     border: 1px solid rebeccapurple;
+    border-radius: 5px;   
+    background-color: rgba(0, 0, 0, 0.616);   
+    color: white;
     padding: 10px;
 }
+.menu ul li:hover{
+    background-color: rgb(120, 252, 245) 
+}
+a{
+    text-decoration: none;
+    color: white;
+}
 .header {
-    background-color: rgb(5, 108, 108);
+    /* background-color: rgb(5, 108, 108); */
     min-height: 150px;
 }
 .content {
     background-color: white;
-    min-height: 589px;
+    min-height: 240px;
     padding: 20px;
 }
 .footer {
     background-color: rgb(99, 56, 240);
-    min-height: 150px;
+    min-height: 100px;
 }
