@@ -27,13 +27,14 @@ body {
 }
 .menu {
     width: 15%;
-    background-color: aqua;
+    background-color: rgb(29, 71, 82);
     padding: 20px 5px 0px;
     text-align: center;
    
 }
 .menu ul{
-    margin-top: 18px;
+    margin-top: 22px;
+    
     
     
 }
@@ -41,8 +42,8 @@ body {
     border: 1px solid rebeccapurple;
     border-radius: 5px;   
     background-color: rgba(0, 0, 0, 0.616);   
-    color: white;
     padding: 10px;
+    
 }
 .menu ul li:hover{
     background-color: rgb(120, 252, 245) 
@@ -51,16 +52,38 @@ a{
     text-decoration: none;
     color: white;
 }
+a:hover{
+    color: red;
+}
 .header {
     /* background-color: rgb(5, 108, 108); */
-    min-height: 150px;
+    min-height: 320px;
+    /* border: 3px solid rgb(8, 156, 241); */
 }
 .content {
-    background-color: white;
-    min-height: 240px;
-    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    min-height: 450px;
+    padding: 15px;
+    /* border: 1px solid red; */
 }
 .footer {
     background-color: rgb(99, 56, 240);
-    min-height: 100px;
+    min-height: 105px;
+justify-content: space-around;
+    display: flex;
+    padding: 15px;
+}
+.contato{
+    height: 50px;
+    width: 450px;
+}
+
+.social img{
+    width: 16px;
+    margin-left: 5px;
+    left: 25px;
+    
+
 }
